@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A new web page">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="favicon.ico">
+    <title>Document</title>
+    <style>
+        .contain{
+          display:flex;
+         justify-content:center;
+         align-items:center;
+        }
+        .game{
+          margin:10px;
+          border:2px solid transparent;
+          height:60px;
+          width:80px;
+          text-align:center;
+          padding-top:30px;
+          border-radius:100%;
+        }
+        .game:active{
+          transform: scale(1.1);
+        }
+        .score{
+          display:flex;
+          justify-content: center;
+          align-items: center;
+          background:#b2f5b2;
+          
+          width: 300px;
+        
+        }
+        .useri{
+          background:;
+          padding-right:20px;
+          text-align: center;
+        }
+        .compi{
+          background:;
+          padding-left:20px;
+          text-align: center;
+        }
+      .msg{
+      
+        background: red;
+        width:100px;
+        border-radius:30px;
+        text-align: center;
+        font-size: 15px;
+        height:45px;
+        font-weight: 600;
+      } 
+       .msg:active{
+         transform: scale(1.1);
+       }
+       h1{
+         background:#0F3460;
+         text-align: center;
+         margin-bottom:30px;
+         
+       }
+       button{
+         background:transparent;
+         border:2px solid black;
+         border-radius:15px;
+         font-size:15px;
+        
+       }
+       .dark{
+         color:white;
+       }
+       body{
+         background:
+         #1B263B;
+       }
+       .scorecontain{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-top:10px;
+       }
+       .msgc{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-top:10px;
+       }
+    </style>
+</head>
+<body>
+      <button>bg</button>
+      <h1>Rock Paper Scisor</h1>
+      <div class="contain">
+        <div class="game" style="background:#E94560" id="rock">rock</div>
+        <div class="game" style="background:#F7EDE2" id="paper">paper</div>
+        <div class="game"style="background:#84A59D" id="Scisor">Scisor</div>
+      </div>
+      <div class="scorecontain">
+      <div class="score">
+        <div class="useri">
+          <p class="uwin">0</p>
+          <p>user</p>
+        </div>
+        <div class="compi">
+          <p class="cwin">0</p>
+          <p>computer</p>
+        </div>
+      </div>
+      </div>
+      <div class="msgc">
+      <div class="msg">
+          <p class="msgp">place</p>
+      </div>
+      </div>
+      <script src="Bapu.js"></script>
+</body>
+</html>
